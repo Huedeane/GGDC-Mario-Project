@@ -282,13 +282,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Coin.cs" />
-    <Compile Include="Assets\CoinScore.cs" />
-    <Compile Include="Assets\GoombaContollerScript.cs" />
-    <Compile Include="Assets\MarioScore.cs" />
+    <Compile Include="Assets\Script\AudioManager.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
+    <Compile Include="Assets\Script\Coin.cs" />
+    <Compile Include="Assets\Script\CoinScore.cs" />
+    <Compile Include="Assets\Script\Fader.cs" />
+    <Compile Include="Assets\Script\GoombaContollerScript.cs" />
+    <Compile Include="Assets\Script\Initiate.cs" />
     <Compile Include="Assets\Script\MarioControllerScript.cs" />
-    <Compile Include="Assets\TimeScore.cs" />
+    <Compile Include="Assets\Script\MarioScore.cs" />
+    <Compile Include="Assets\Script\SwitchMusicTrigger.cs" />
+    <Compile Include="Assets\Script\TimeScore.cs" />
+    <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don&apos;t have to import this folder)\DemoScript.cs" />
+    <Compile Include="Assets\SoundEffectManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Simple Scene Fade Load System\ReadMeFirst.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
